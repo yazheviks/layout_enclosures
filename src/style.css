@@ -1,25 +1,25 @@
 body {
   background-color: #000;
   margin: 0;
-}
-
-.block {
-  border: solid 1px #e6605c;
+  padding: 20px;
 }
 
 .item {
-  width: 328px;
+  border: solid 1px #521e1d;
+  padding: 10px;
+}
+
+.outer {
+  box-sizing: content-box;
+  width: 350px;
   background-color: #308dc0;
-  padding: 10px;
-  margin: 20px 20px 40px 0;
+  margin-bottom: 40px;
 }
 
-.item__middle {
+.middle {
   background-color: #ffa500;
-  padding: 10px;
 }
 
-.item__inner {
+.inner {
   background-color: #ddd;
-  padding: 10px;
 }
