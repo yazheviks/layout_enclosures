@@ -5,12 +5,12 @@ body {
 }
 
 .item {
-  border: solid 1px #c04743;
+  border: solid 1px #e75551;
   padding: 10px;
 }
 
 .outer {
-  box-sizing: content-box;
+  box-sizing: border-box;
   width: 350px;
   background-color: #308dc0;
   margin-bottom: 40px;
@@ -22,4 +22,8 @@ body {
 
 .inner {
   background-color: #ddd;
+}
+
+p {
+  margin: 0;
 }
